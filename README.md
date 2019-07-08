@@ -9,6 +9,7 @@
 ```json
 {
   "name": "名字",
+  "url": "要提交到的地址",
   "schema": {}
 }
 ```
@@ -24,3 +25,13 @@
 **获取某个 Schema 详情**
 
 `GET /schema/xxx`
+
+**提交 Schema 结果**
+
+`POST /submit/xxx`
+
+```json
+{
+  "result": {}
+}
+```
